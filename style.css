@@ -14,6 +14,10 @@ body{
     font-family: "Inter", sans-serif;
 }
 
+button{
+    cursor: pointer;
+}
+
 .font_noto{
     font-family: "Noto Serif", serif;
 }
