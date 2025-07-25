@@ -13,3 +13,7 @@ body{
     overflow-x: hidden;
     font-family: "Inter", sans-serif;
 }
+
+.font_noto{
+    font-family: "Noto Serif", serif;
+}
