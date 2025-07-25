@@ -236,16 +236,16 @@
 
 
         <!-- flower and plants lover -->
-        <section class="w-full mt-10 md:mt-52 sm:flex sm:items-center sm:justify-between sm:gap-x-16 pb-20">
+        <section class="w-full mt-10 md:mt-52 sm:flex sm:items-center sm:justify-between sm:gap-x-16">
             <!-- image -->
             <div class="sm:max-w-[540px] relative">
                 <div class="">
-                    <img class="w-full" src="./assets/flower-store.png" alt="Flower Store">
+                    <img class="w-full" loading="lazy" src="./assets/flower-store.png" alt="Flower Store">
                 </div>
                 
                 <!-- badge -->
                 <div class="hidden lg:block absolute -top-32 -right-[20%]">
-                    <img class="w-3xs" src="./assets/trusted-badge.png" alt="Badge">
+                    <img class="w-3xs" loading="lazy" src="./assets/trusted-badge.png" alt="Badge">
                 </div>
             </div>
 
@@ -261,6 +261,64 @@
                     <li class="text-black/50 text-sm md:text-xl font-normal">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                 </ul>
             </div>
+        </section>
+
+
+
+        <!-- latest deals -->
+        <section class="w-full mt-36 pb-20">
+
+            <!-- heading -->
+            <div class="text-center mb-11">
+                <h1 class="text-black text-2xl sm:text-5xl font-bold font_noto mb-4"><span class="text-orange-600">Latest</span> Deals</h1>
+                <p class="text-black/50 text-sm sm:text-xl font-normal sm:max-w-[888px] mx-auto">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                </p>
+            </div>
+
+            <!-- images -->
+            <div class="grid md:grid-cols-3 gap-5 md:gap-7">
+
+                <div class="grid gap-5 md:gap-6">
+
+                    <!-- single grid -->
+                    <div class="relative">
+                        <!-- image -->
+                        <img class="w-full rounded-2xl" src="./assets/deal-bloom.png" alt="deal">
+                        <!-- image inside contents -->
+                        <div class="absolute top-0 w-full h-full text-center text-white grid place-content-center bg-black/60 rounded-2xl">
+                            <h2 class="text-xl font-bold font_noto mb-5">60% Off | Bloom Plant</h2>
+                            <p class="text-base font-semibold underline underline-offset-2 cursor-pointer">Shop Now</p>
+                        </div>
+                    </div>
+
+                    <!-- single grid -->
+                    <div class="relative">
+                        <!-- image -->
+                        <img class="w-full rounded-2xl" src="./assets/deal-ana.png" alt="deal">
+                        <!-- image inside contents -->
+                        <div class="absolute top-0 w-full h-full text-center text-white grid place-content-center bg-black/60 rounded-2xl">
+                            <h2 class="text-xl font-bold font_noto mb-5">30% Off | Ana  Plant</h2>
+                            <p class="text-base font-semibold underline underline-offset-2 cursor-pointer">Shop Now</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- single grid -->
+                <div class="relative md:col-span-2">
+                    <!-- image -->
+                    <img class="w-full rounded-2xl" src="./assets/deal-zabo.png" alt="deal">
+
+                    <!-- image inside contents -->
+                    <div class="absolute top-0 w-full h-full text-center text-white grid place-content-center bg-black/60 rounded-2xl">
+                        <h2 class="text-xl md:text-4xl font-bold font_noto mb-5">25% Off | Zabo Plant</h2>
+                        <p class="text-base md:text-3xl font-semibold underline underline-offset-2 cursor-pointer">Shop Now</p>
+                    </div>
+                </div>
+
+            </div>
+
         </section>
 
     </main>
